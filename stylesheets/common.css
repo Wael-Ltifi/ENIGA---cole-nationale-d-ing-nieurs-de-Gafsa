@@ -1,0 +1,150 @@
+/*this file is used to store shared css rules between front and back office*/
+.rounded_corner_content {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background: #eee;
+border: 1px dashed #ccc;
+padding: 10px;
+}
+.dataTables_length select {width: 60px;}
+.prod_dl_16 {border-bottom: 1px solid #ddd; padding-bottom: 10px; padding-left: 20px; background: url('../images/dl_16.png') no-repeat;}
+
+.inline-block{display: inline-block;vertical-align: top;zoom: 1; /* Fix for IE7 */*display: inline; /* Fix for IE7 */}
+.obligatoryFieldMark {font-size:15px;color:red;margin:0px;padding:0px;line-height:0px}
+.center-b {margin: 0 auto;}
+.center-i {text-align: center;}
+.center-ib {margin: 0 auto;text-align: center;}
+.bold{font-weight: bold}
+.clear {clear: both;}
+.inline {display: inline;}
+.inline-block { display: inline-block;vertical-align: top;zoom: 1;*display: inline;}
+.block {display: block}
+.fixed-width-80 {width: 80px;}
+.fixed-width-100 {width: 100px;}
+.fixed-width-150 {width: 150px;}
+.fl {float: left;}
+.fr {float: right;}
+.txt-right {text-align: right;}
+.txt-left {text-align: left;}
+.txt-center {text-align: center;}
+.txt-uppercase {text-transform: uppercase;}
+.width-auto {width: auto}
+.flex {display: flex;}
+.flex-jcsp {justify-content: space-between;}
+.flex-aic {align-items: center;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-column {flex-direction: column;}
+.display-none {display: none}
+.borderless {
+    border: none !important;
+}
+.position-relative {position: relative;}
+table.borderless tr,
+table.borderless th,
+table.borderless td {
+    border:none !important;
+}
+
+.responsive-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.responsive-box > * {
+    flex-basis: 100%;
+}
+
+body[data-direction=ltr] .responsive-box > *:not(:last-child) {
+    margin-right: 2em;
+}
+body[data-direction=rtl] .responsive-box > *:not(:last-child) {
+    margin-left: 2em;
+}
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .responsive-box {
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .responsive-box > *:not(:last-child) {
+        margin-bottom: 2em;
+    }
+    
+    .flex-column-on-mobile {
+        flex-direction: column;
+    }
+    
+    .flex-center-on-mobile {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .responsive-box.stack-on-tablet {
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .responsive-box.stack-on-tablet > *:not(:last-child) {
+        margin-bottom: 1em;
+    }
+    
+    .flex-column-on-tablet {
+        flex-direction: column;
+    }
+    
+    .flex-wrap-on-tablet {
+        flex-wrap: wrap;
+    }
+    
+    .flex-center-on-tablet {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hide-on-tablet {
+        display: none !important;
+    }
+}
+
+/* Mobile and tablet */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .flex-column-gap > *:not(:last-child) {
+        margin-bottom: 2em;
+    }
+}
+
+/* Computer */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large screen */
+@media only screen and (min-width: 1200px) and (max-width: 1919px){
+    
+}
+
+/* Wide screen */
+@media only screen and (min-width: 1920px) {
+
+}
+
+/* Less the wrapper */
+@media only screen and (max-width: 1174px) {
+}

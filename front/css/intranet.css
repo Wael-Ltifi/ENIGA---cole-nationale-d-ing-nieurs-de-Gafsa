@@ -1,0 +1,333 @@
+#widget_intranet {
+    font-size: 12px;
+}
+
+#widget_intranet  .front-box-title.intranet {
+
+    margin: 0px;
+    background: rgba(241,231,103,1);
+    background: -moz-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+    background: -webkit-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    background: linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+}
+
+#widget_intranet  .front-box-title.intranet .title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #272829;
+    padding: 16px 0 10px 56px;
+    background: url("../images/intranet/ic_title.png") no-repeat top 10px left 10px;
+}
+
+
+#widget_intranet  .front-box-title.intranet #allMenu>span {
+    height: 19px;
+    width: 19px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+#widget_intranet  .front-box-title.intranet #allMenu .menuActionDown{
+    background: url('../images/slide.png') top right;
+}
+#widget_intranet  .front-box-title.intranet #allMenu .menuActionDown:hover{
+    background: url('../images/slide.png') bottom right;
+}
+#widget_intranet  .front-box-title.intranet #allMenu .menuActionUp{
+    background: url('../images/slide.png') top left;
+}
+#widget_intranet  .front-box-title.intranet #allMenu .menuActionUp:hover{
+    background: url('../images/slide.png') bottom left;
+}
+
+
+
+#widget_intranet li {
+    list-style: none;
+    margin-bottom:0;
+    display: block;
+}
+
+
+#widget_intranet .top-widget{
+    padding: none;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f7983+0,515a69+100;White+3D */
+    background: #E0E0E0;
+}
+
+#widget_intranet .top-widget:hover,#widget_intranet .top-widget.active{
+
+    background: #BDBDBD;
+
+    cursor: pointer;
+
+    -moz-transition: all .5s;
+
+    -webkit-transition: all .5s;
+
+    -o-transition: all .5s;
+
+    transition: all .5s;
+}
+#widget_intranet .top-widget>a{color: #1B262B !important;}
+#widget_intranet .top-widget:hover>a,#widget_intranet .top-widget.active>a{
+    padding-left: 50px; -moz-transition: all .5s; -webkit-transition: all .5s; -o-transition: all .5s; transition: all .5s;
+    color:#1B262B  !important;
+
+}
+
+
+
+#widget_intranet .widget_menu .news a {background:url(../images/intranet/icon/news.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .fiche a {background:url(../images/intranet/icon/fiche.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .emploi a {background:url(../images/intranet/icon/emploi.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .calendrier a {background:url(../images/intranet/icon/calendrier.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .absenses a {background:url(../images/intranet/icon/absenses.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .rattrapages a {background:url(../images/intranet/icon/rattrapages.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .bulletin a {background:url(../images/intranet/icon/bulletin.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .cours a {background:url(../images/intranet/icon/cours.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .formulaires a {background:url(../images/intranet/icon/formulaires.png) top 3px left 8px no-repeat; }
+#widget_intranet .widget_menu .stages a {background:url(../images/intranet/icon/stages.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .offresstages a {background:url(../images/intranet/icon/gest_stages.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .offresemploi a {background:url(../images/intranet/icon/gest_emploi.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .offrespfe a {background:url(../images/intranet/icon/gest_pfe.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .bibliotheque a {background:url(../images/intranet/icon/bibliotheque.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .parametres a {background:url(../images/intranet/icon/parametres.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .logout a {background:url(../images/intranet/icon/logout.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .inbox a {background:url(../images/intranet/icon/inbox.png) top 5px left 8px no-repeat;/* color: #263050; */}
+#widget_intranet .widget_menu .gsuite a {background:url(../images/intranet/icon/gsuite.html) top 5px left 8px no-repeat;/* color: #263050; */}
+#widget_intranet .widget_menu .exa a {background:url(../images/intranet/icon/exa.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .prop a {background:url(../images/intranet/icon/b_request.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .veux a {background:url(../images/intranet/icon/fiche.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .orientation a {background:url(../images/intranet/icon/orientation.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .demande a {background:url(../images/intranet/icon/demande.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .gestion_contenu a {background:url(../images/intranet/icon/gestion_contenu.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .stage_doc a {background:url(../images/intranet/icon/stage_doc.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .mat_opt a {background:url(../images/intranet/icon/mat_opt.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .institut_presence a {background:url(../images/intranet/icon/institut_presence.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .institut_ressource a {background:url(../images/intranet/icon/institut_ressource.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .institut_ens_annuaire a {background:url(../images/intranet/icon/institut_ens_annuaire.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .appel_offre a {background:url(../images/intranet/icon/appel_offre.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .plaquette_pedagogique a {background:url(../images/intranet/icon/plaquette_pedagogique.png) top 5px left 8px no-repeat; }
+#widget_intranet .widget_menu .institut_printing a {background:url(../images/intranet/icon/printing.png) top 5px left 8px no-repeat; }
+
+
+/* Pour le menu horizontale */
+
+.widgetMenuSideBare .containerElemMenu .news>a {background:url(../images/intranet/icon/news.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .fiche>a {background:url(../images/intranet/icon/fiche.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .emploi>a {background:url(../images/intranet/icon/emploi.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .calendrier>a {background:url(../images/intranet/icon/calendrier.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .absenses>a {background:url(../images/intranet/icon/absenses.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .rattrapages>a {background:url(../images/intranet/icon/rattrapages.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .bulletin>a {background:url(../images/intranet/icon/bulletin.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .cours>a {background:url(../images/intranet/icon/cours.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .formulaires>a {background:url(../images/intranet/icon/formulaires.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .stages>a {background:url(../images/intranet/icon/stages.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .offresstages>a {background:url(../images/intranet/icon/gest_stages.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .offresemploi>a {background:url(../images/intranet/icon/gest_emploi.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .offrespfe>a {background:url(../images/intranet/icon/gest_pfe.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .bibliotheque>a {background:url(../images/intranet/icon/bibliotheque.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .parametres>a {background:url(../images/intranet/icon/parametres.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .logout>a {background:url(../images/intranet/icon/logout.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .inbox>a {background:url(../images/intranet/icon/inbox.png) left no-repeat;/* color: #263050; */}
+.widgetMenuSideBare .containerElemMenu .gsuite>a {background:url(../images/intranet/icon/gsuite.html) left no-repeat;/* color: #263050; */}
+.widgetMenuSideBare .containerElemMenu .exa>a {background:url(../images/intranet/icon/exa.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .prop>a {background:url(../images/intranet/icon/b_request.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .veux>a {background:url(../images/intranet/icon/fiche.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .orientation>a {background:url(../images/intranet/icon/orientation.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .demande>a {background:url(../images/intranet/icon/demande.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .gestion_contenu>a {background:url(../images/intranet/icon/gestion_contenu.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .stage_doc>a {background:url(../images/intranet/icon/stage_doc.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .mat_opt>a {background:url(../images/intranet/icon/mat_opt.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .institut_presence>a {background:url(../images/intranet/icon/institut_presence.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .institut_ressource>a {background:url(../images/intranet/icon/institut_ressource.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .institut_ens_annuaire>a {background:url(../images/intranet/icon/institut_ens_annuaire.png) left no-repeat; }
+.widgetMenuSideBare .containerElemMenu .appel_offre>a {background:url(../images/intranet/icon/appel_offre.png) left no-repeat; }
+
+
+#widget_intranet .top-widget>a{
+    display: block;
+    height: 27px;
+    margin: 0 !important;
+    padding-top: 10px;
+    padding-left:40px;
+    color:#fff;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+#widget_intranet .widget_menu>ul{
+    padding: 0;
+    margin: 0;
+}
+
+#widget_intranet ul li>ul{
+    padding: 0;
+}
+#widget_intranet ul li>ul li{
+    background: #f2f2f2;
+}
+#widget_intranet ul li>ul li:hover{
+    background: #fff ;
+
+}
+#widget_intranet ul li>ul li a{
+    color:#505050;
+    text-shadow:0px 1px 1px #fff;
+    display: block;
+    padding: 9px 0 2px 35px;
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #fbfbfb;
+    background: url("../images/intranet/arrow-widget.png") top 14px left 15px no-repeat !important;
+}
+
+
+#widget_intranet ul li>ul li a:last-child {
+    padding-bottom: 4px;
+
+}
+#widget_intranet ul li>ul li a.active{
+    color : #1077BC;
+    background: url("../images/intranet/arrow-widget.png") #fff top 14px left 15px no-repeat !important;
+}
+
+#widget_intranet .login_form {
+    background:url(../images/intranet/login.png) top left no-repeat;
+    padding-left:82px;
+    margin-left:8px;
+}
+#widget_intranet .login_form input{
+    width:120px;
+    padding-left:18px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-top-color:#B6B6B6;
+    border-left-color:#B6B6B6;
+    border-right-color:#D8D8D8;
+    border-bottom-color:#D8D8D8;
+
+}
+#widget_intranet .login_form .username{
+    background:#CDCDCD url(../images/intranet/username.png) 4px 4px no-repeat;
+}
+#widget_intranet .login_form .password{
+    background:#CDCDCD url(../images/intranet/password.png) 4px 4px no-repeat;
+}
+#widget_intranet .login_form .password_lost{
+    color:#666;
+    font-size:10px;
+}
+#widget_intranet .login_form .password_lost a:hover{
+    color:#377B9A;
+}
+#widget_intranet .login_form .submit{
+    background:url(../images/intranet/go.png) top left no-repeat;
+    width:47px;
+    height:25px;
+    border:0; padding:0; margin:0;
+    text-align:left;
+    font-weight:bold;
+    color:#666;
+    cursor:pointer;
+    padding-left:15px;
+}
+
+#widget_intranet .widget_footer{
+    height:17px;
+    background:url(../images/intranet/footer.png) top left no-repeat;
+}
+
+.intranet_profile_photo {float:right; padding-right:30px; position: absolute; right: 20px;}
+.intranet_profile_photo img {width: 130px}
+.export_pdf {float:left;}
+.export_pdf button{border:0; padding:0; margin:0; background:none; cursor:pointer;font-size:10px; color:#999999; background:url(../../images/pdf.png) center left no-repeat; padding-left:16px;}
+.export_pdf button:hover{color:#000000;}
+
+.intranet_th {color:#FFFFFF; font-weight:bold; border-bottom:1px dotted #003300; background-color:#006daa; padding:4px;margin-top:3px;border-right:1px solid #FFFFFF;}
+
+.intranet_td {border-bottom:1px dotted #003300;border-right:1px dotted #003300;padding-left:3px; }
+
+.intranet_td_first {border-bottom:1px dotted #003300;border-right:1px dotted #003300;border-left:1px dotted #003300; padding-top:5px; padding-left:5px;}
+
+.intranet_tr:hover{background:#07b1ff; color:#FFFFFF;}
+
+
+
+.intranet_th_sub {padding-left:6px;}
+
+.intranet_sub_title {font-weight:normal; border-bottom:1px solid #333333; padding:2px; font-size:12px;}
+
+.intranet_section_title {font-weight:bold; border-bottom:1px dotted #999999; padding:2px; font-size:12px; color:#23baff; margin-bottom:8px;}
+
+.intranet_section_title a{color:#23baff; cursor:pointer;}
+
+
+.intranet_section_title_2 {font-weight:bold; border-bottom:1px dotted #999999; padding:5px; font-size:12px; color:#4690B3; margin-bottom:8px;}
+
+.intranet_section_title_2 a{color:4690B3; cursor:pointer;}
+
+ul {
+    list-style: none;
+}
+
+#widget_intranet .widget_menu ol{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#widget_intranet .widget_menu ol li{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-weight: normal !important;
+    list-style-type: decimal;
+    color: #000;
+    list-style-position: inside;
+    border:none !important;
+}
+
+/* Module Avis */
+.chooser_item .DeleteChooser {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    display:block;
+    background: url("../../images/close.png") no-repeat;
+    height: 18px;
+    width: 18px;
+}
+.chooser_item .dropdowns{
+    float:left;
+}
+.chooser_item .dropdowns select{
+    margin: 0 5px;
+}
+.chooser_item{
+    height: 40px;
+}
+
+
+
+/* affichage cours */
+
+.bootstrap_site_container legend {
+    margin-bottom: 10px !important;
+    line-height: initial !important;
+    font-size: 18px !important;
+    color: #0D47A1 !important;
+    border-left: 2px solid #FF6F00 !important;
+    border-bottom: 1px solid #ECEFF1 !important;
+    padding: 0 5px !important;
+}
+
+.bootstrap_site_container fieldset a{
+    padding: 5px 10px;
+    background: #E1F5FE;
+    border-radius:5px;
+}

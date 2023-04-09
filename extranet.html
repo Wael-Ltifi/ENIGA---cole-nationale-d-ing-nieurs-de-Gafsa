@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from eniga.rnu.tn/extranet by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Apr 2023 03:53:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base  />
+    <!-- Meta -->
+
+    <title>ENIGA - Authentification</title>
+    <meta name="description" content="École nationale d'ingénieurs de Gafsa" />
+    <meta name="keywords" content="École ,nationale, ingénieurs , Gafsa"/>
+    <meta name="language" content="fr"/>
+
+
+    <!-- fin meta -->
+    <script src="javascripts/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LC49ZZHWFW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LC49ZZHWFW');
+</script>
+    <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+    <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+    <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+    <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+    <!--[if gt IE 8]><!--> <head lang="en"> <!--<![endif]-->
+
+        <!-- Set the viewport width to device width for mobile -->
+        <meta name="viewport" content="width=device-width" />
+
+
+
+        <!-- Included CSS Files -->
+        <link rel="stylesheet" href="plugins/Semantic/semantic.min.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="stylesheets/animated.css">
+
+        <link rel="stylesheet" type="text/css" href="stylesheets/common.css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+        <link href="stylesheets/login.css" rel="stylesheet">
+
+
+    </head>
+<body class="intranet">
+    <div class="wrapper_particile" style="background: #424242"></div>
+
+
+<div class="LoginScreen">
+    <div class="rightBlock"></div>
+
+    <div class="contentLogin">
+        <h1 class="wow zoomIn">Espace Extranet</h1>
+
+        <div class="wow bounceInUp">
+            <div class="column ">
+                <div class="logoForMobile">
+                    <img src="stylesheets/intranet/logo.png" alt="">
+                </div>
+                <h2 class="wow bounceInUp" data-wow-delay="0.2s">Se connecter</h2>
+                <h3 class="wow zoomIn subTitle">Etudiant / Enseignant / Administration</h3>
+
+                
+                <form class="ui large form" method="POST" action="https://eniga.rnu.tn/fra/intranet/check_account" id="loginForm">
+                    <div class="field  wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="ui left icon input">
+                            <i class="file icon"></i>
+                            <input type="text" name="username" class="login-box-field username" autocomplete="off" placeholder="Login" required>
+                        </div>
+
+                    </div>
+
+                    <div class="field  wow bounceInUp" data-wow-delay="0.4s">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" id="password" name="password" class="login-box-field password" autocomplete="off" placeholder="Mot de passe" required>
+                        </div>
+                    </div>
+
+                    <div class="fields wow bounceInUp captchaField" data-wow-delay="0.5s" >
+                        
+        <div id="antibots_wrapper" style="display: none">
+            <img class="captcha_glinse"/>
+            <input type="text" name="anti_bots_text" id="anti_bots" placeholder="Retapez le code " />
+            <input type="hidden" name="anti_bots_token" />
+		</div>
+        <script>
+            $.ajax({
+                url: "/includes/anti_bots.php", 
+                data: {
+                    t: "tXajwNJ6zpR1oZ6SsJKL6pDsY6OMjrGMb6ljnrncld2/iJ6J3bmop4G91op/qJ7Cm+x5yVmst2Sl2oaihrp7mbKrlYbEktqesaORk2aEaK+Hp2M="
+                },
+                success(response) {
+                    $("#antibots_wrapper img").attr("src", "data:image/png;base64,"+response.data._);
+                    $("#antibots_wrapper input[name=anti_bots_token]").val(response.data.__);
+                    $("#antibots_wrapper").show();
+                }
+            })
+        </script>
+		                    </div>
+
+                    <div class="flexContent">
+                        <a href="fra/intranet/reset_password.html" id="passwordResetLink">
+                            Mot de passe oublié ?                        </a>
+                        <button type="submit" class="ui positive button">
+                            <i class="sign in icon"></i> Se connecter                        </button>
+
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="retour_accueil">
+        <a href="index.html"><i class="icon share square outline"></i> Retour à la page d'accueil</a>
+    </div>
+
+</div>
+
+<script src="plugins/cryptojs/sha1.js"></script>
+<script>
+    $('#loginForm').on('submit', function(){
+        var passwordField = $('#password');
+        var password = passwordField.val();
+
+        passwordField.val( CryptoJS.SHA1(password) );
+    });
+</script>
+<div id="root-picker-outlet"></div>
+<div class="footerLogin">
+    <div class="flexContent">
+            <div class="ministry_logo">République Tunisienne <br>Ministère de l’Enseignement Supérieur et de la Recherche Scientifique<br>université de GAFSA</div>
+        <div class="copyright">© Copyright 2020 ENIGA. Tous droits réservés.</div>
+    </div>
+</div>
+
+</body>
+<script src="plugins/Semantic/semantic.min.js"/></script>
+<script src="plugins/particle-animations/animation.min.js"/></script>
+<script src="plugins/wow.js"/></script>
+<script>
+$(document).ready(function() {
+        try{
+            var theContainer = document.querySelector(".wrapper_particile");
+            if (theContainer){
+                var theCanvas = NetworkAnimation.init(theContainer);
+                setTimeout(NetworkAnimation.animate);
+            }
+        }catch(e){
+            console.error(e);
+        }
+    
+    new WOW().init();
+});
+
+</script>
+
+
+<!-- Mirrored from eniga.rnu.tn/extranet by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 09 Apr 2023 03:53:22 GMT -->
+</html>
